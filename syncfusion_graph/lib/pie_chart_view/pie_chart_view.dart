@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
-class HomeView extends StatefulWidget {
-  const HomeView({super.key});
+class PieChartView extends StatefulWidget {
+  const PieChartView({super.key});
 
   @override
-  State<HomeView> createState() => _HomeViewState();
+  State<PieChartView> createState() => _PieChartViewState();
 }
 
-class _HomeViewState extends State<HomeView> {
+class _PieChartViewState extends State<PieChartView> {
   late List<GDPData> _chartData;
   late TooltipBehavior _tooltipBehavior;
 
