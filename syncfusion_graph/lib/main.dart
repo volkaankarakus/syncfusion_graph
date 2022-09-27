@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:syncfusion_graph/date_range_picker_view/date_range_picker_view.dart';
+import 'package:syncfusion_graph/calender_view/calender_view.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Material App',
       debugShowCheckedModeBanner: false,
-      home: DateRangePickerrView(),
+      home: CalenderView(),
     );
   }
 }
